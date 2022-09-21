@@ -13,6 +13,7 @@ public class Ember {
         this.szulHely = szulHely;
     }
 
+
     public int getSzuletesiEv() {
         return Integer.parseInt(szulDatum.substring(0, 4));
     }
